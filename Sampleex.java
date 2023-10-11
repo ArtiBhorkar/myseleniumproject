@@ -27,6 +27,8 @@ driver.findElement(By.xpath("//button[@id='runbtn']")).click();
 		Thread.sleep(2000);
 		
 		driver.close();
+
+		driver.quit();
 }
 
 }
